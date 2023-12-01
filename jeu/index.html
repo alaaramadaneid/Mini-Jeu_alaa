@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choix du Héros et de l'Adversaire</title>
+</head>
+<body>
+<form action="combat.php" method="post">
+    <label for="hero">Choisissez votre Heros:</label>
+    <select id="hero" name="hero">
+        <option value="Warrior">Guerrier</option>
+        <option value="Mage">Mage</option>
+    </select>
+
+    <label for="opponent">Choisissez votre Adversaire :</label>
+    <select id="opponent" name="opponent">
+        <option value="Monster1">Monstre 1</option>
+        <option value="Monster2">Monstre 2</option>
+    </select>
+
+    <input type="submit" value="start le combat">
+</form>
+</body>
+</html>
